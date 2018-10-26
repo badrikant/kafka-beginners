@@ -13,6 +13,9 @@ import java.util.Properties;
 
 /**
  * @author badrikant.soni on Oct,2018 at 4:23 PM
+ *
+ * A nice option to know where the message is produced, whats the partition, topics , offset and timestamps etc.
+ * Also, throw an exception if producer couldn't produce the records.
  */
 public class ProducerCallBack {
 
