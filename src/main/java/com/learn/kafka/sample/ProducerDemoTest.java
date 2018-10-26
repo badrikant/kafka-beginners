@@ -32,7 +32,7 @@ public class ProducerDemoTest {
         // create a producer record
         ProducerRecord<String, String> record = new ProducerRecord<String, String>("first-topic", "hello World");
 
-        // send data
+        // send data - asynchronous
         producer.send(record);
 
         // flush
